@@ -1,8 +1,0 @@
-{
-  "name": "aoc2017",
-  "private": true,
-  "dependencies": {
-    "@types/node": "^8.0.53",
-    "typescript": "^2.6.2"
-  }
-}
