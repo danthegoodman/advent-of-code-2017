@@ -1,4 +1,5 @@
 import kotlin.system.exitProcess
+import kotlin.test.expect
 
 const val INPUT = 289326
 
@@ -43,8 +44,7 @@ fun main(args: Array<String>) {
             grid[r][c] = computeSlot(r, c)
             if (grid[r][c] > INPUT) {
                 println(renderGrid())
-                println()
-                println("ANSWER =========== ${grid[r][c]}")
+                expect(295229) { grid[r][c] }
                 exitProcess(0)
             }
         }

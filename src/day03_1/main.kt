@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     expect(3) { compute(12) }
     expect(2) { compute(23) }
     expect(31) { compute(1024) }
-    println(compute(289326))
+    expect(419) { compute(289326) }
 }
 
 fun compute(input: Int): Int {
