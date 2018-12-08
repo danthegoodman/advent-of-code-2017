@@ -1,9 +1,20 @@
 # Advent of Code 2017
 
-<https://kotlinlang.org/>
+<https://www.typescriptlang.org/>
 
-<http://adventofcode.com/2017/>
+<https://adventofcode.com/2017/>
 
 ## Compiling & Running
 
-Code has been compiled and run in IntelliJ Idea Community Edition against Kotlin 1.2
+Compile the entire project:
+
+```
+yarn tsc
+```
+
+Run a day's set of code:
+
+```
+node 01/main
+```
+

@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "dependencies": {
+    "@types/lodash": "^4.14.118",
+    "@types/node": "^10.12.11",
+    "lodash": "^4.17.11",
+    "typescript": "^3.2.1"
+  }
+}
